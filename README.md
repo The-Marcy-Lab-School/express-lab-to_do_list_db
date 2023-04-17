@@ -124,7 +124,7 @@ Commenting out the entire previous version will make it easier for your teachers
 # SUPER Bonus: The One True PATCH
 Here's a little secret: our `PATCH` route is a lie. All it can ever do is update the completion status. But what if we wanted to update the title? To fix this, create a new class method called `update`.
 
-- `update` will takes in an id, and an object with a `title` and/or `is_done` property.
+- `update` will take in an id, and an object with a `title` and/or `is_done` property.
 - The method should update the corresponding `to do` in the DB, and then return the updated `to do`.
 - If no `to do` was found (or there was an error), return `null`.
 - You should try this with both `knex.raw` and knex queries. See which is easier!
