@@ -36,7 +36,7 @@ The only file you need to edit is the model file, [db/models/to-do.js](./src/db/
 Because we have a DB now, we need to make sure that it's set up properly.
 
 ## .env file and variables
-In order to connect, we're relying on environment variables. Copy `.env.template` as a new `.env` file. There are already default values set, but change them if you need to. For example, if you've created a different database for this assignment, change the name from the default `postgres`.
+In order to connect, we're relying on environment variables. Copy `.env.template` as a new `.env` file. There are already default values set, but change them if you need to. For example, if you've created a different database for this assignment, change the name from the default `postgres`. If you are using a Windows machine, you likely need to change the username and/or password.
 
 
 ## Migrations and Seeds
