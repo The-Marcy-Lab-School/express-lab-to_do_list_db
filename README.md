@@ -1,8 +1,15 @@
 # To Do List DB Version
 
+## Project Goals
+  > - Understand how to use CRUD action in a realistic app using a DB
+  > - Use `knex.raw` to build your queries to understand the underlying SQL
+
+The only file you need to edit is the model file, [db/models/to-do.js](./src/db/models/to-do.js).
+
+## Table of Contents
+
 - [To Do List DB Version](#to-do-list-db-version)
   - [Starter Code](#starter-code)
-  - [Project Goals](#project-goals)
 - [Before You Start](#before-you-start)
   - [.env file and variables](#env-file-and-variables)
   - [Migrations and Seeds](#migrations-and-seeds)
@@ -25,12 +32,6 @@ We have provided the following for you:
 - A front end where you can visually test your actions
 - Migrations to create the DB tables
 - Seeds to populate the DB
-
-## Project Goals
-  > - Understand how to use CRUD action in a realistic app using a DB
-  > - Use `knex.raw` to build your queries to understand the underlying SQL
-
-The only file you need to edit is the model file, [db/models/to-do.js](./src/db/models/to-do.js).
 
 # Before You Start
 Because we have a DB now, we need to make sure that it's set up properly.
